@@ -67,3 +67,22 @@ a {
     color: #555555;
     text-align: center;
 }
+
+.social{
+    margin: 2rem 1rem;
+    text-align: center;
+}
+
+.contact{
+    text-align: center;
+    margin: 2rem 1rem;
+}
+
+.contact>p{
+    font-size:larger;
+}
+.location{
+    text-align: center;
+    margin: 2rem 1rem;
+    font-size: small;
+}
