@@ -13,16 +13,26 @@ p, .class, #id : 그룹
 
 }
 
-a {
-    color: red;
-    text-decoration: none;
-}
 
 .logo{
-
+    
     width:100px;
     height:110px;
     margin:0 auto; /* 수평 중앙 정렬 */
     padding: 50px 0; /* 상/하 50 좌/우 0 */
+    
+}
 
+.menu{
+    text-align: center;
+    color:white;
+    background-color: #005891;
+    padding: 20px 0; /* 상/하 50 좌/우 0 */
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 10px; /* 요소와 요소  , padding : 요소와 내용 */
+    
 }
