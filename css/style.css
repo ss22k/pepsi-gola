@@ -36,3 +36,34 @@ a {
     margin: 10px; /* 요소와 요소  , padding : 요소와 내용 */
     
 }
+
+.hero{
+    width:800px;
+    margin: 0 auto; /* center  margin: 0  lrft |  float: right; */
+    padding: 10px 0;
+}
+
+.hide{
+    display: none; /* 표시 안함 */
+}
+
+.movie{
+    width:600px;
+    margin: 0 auto;
+    font-size: 0; /* 글자  없어짐 */
+}
+
+ /* kebab-case(, camelCase, Pascal case, snake_case) */
+.movie-title{
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    /* margin: .3rem 0;/* 밖 여백 상하 0.3 좌우 0 */
+    margin: 1.5rem 0 1rem 0;/* 밖 여백 상 우 하 우 (시계방향) */
+}
+
+.moive-desc{
+    font-size: 16px;
+    color: #555555;
+    text-align: center;
+}
