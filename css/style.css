@@ -1,0 +1,14 @@
+/*
+selector
+* : 전체
+tag : 태그
+.class : class
+#id : id
+p, .class, #id : 그룹
+*/
+
+* {
+    margin: 0; /* 바깥 여백 */
+    padding: 0; /* 안 여백 */
+
+}
