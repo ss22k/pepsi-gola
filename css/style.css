@@ -101,3 +101,9 @@ a {
     margin-bottom: 3rem;
     font-size: 0.9rem;
 }
+
+@media screen and (max-width:375px) {
+    body {
+        background-color: gold;
+    }
+}
