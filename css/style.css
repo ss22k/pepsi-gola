@@ -73,16 +73,31 @@ a {
     text-align: center;
 }
 
-.contact{
-    text-align: center;
-    margin: 2rem 1rem;
+
+#line{
+    margin: 3rem 0;
+    color: #005891;
 }
 
-.contact>p{
-    font-size:larger;
-}
-.location{
+
+
+.contact, .location {
     text-align: center;
     margin: 2rem 1rem;
-    font-size: small;
+}
+.contact h2{
+    padding: auto;
+}
+
+.contact p{
+    font-size:larger;
+}
+
+.location p:nth-child(1){
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+.location p:nth-child(2){
+    margin-bottom: 3rem;
+    font-size: 0.9rem;
 }
