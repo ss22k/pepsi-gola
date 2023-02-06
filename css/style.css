@@ -23,6 +23,13 @@ p, .class, #id : 그룹
     
 }
 
+.bugger{
+    display: none;
+    position: absolute;
+    top: 100px;
+    right:7%;
+}
+
 .menu{
     text-align: center;
     color:white;
@@ -42,6 +49,8 @@ a {
     margin: 0 auto; /* center  margin: 0  lrft |  float: right; */
     padding: 10px 0;
 }
+
+
 
 .hide{
     display: none; /* 표시 안함 */
@@ -105,5 +114,42 @@ a {
 @media screen and (max-width:375px) {
     body {
         background-color: gold;
+    }
+
+    .bugger{
+        display: block;
+    }
+    .menu{ 
+   display: none;
+    }   
+
+    .hreo{
+        width:100%;
+    }
+
+    .hero img{
+        width: 100%;
+        object-fit: cover; /* 알맞게 */
+    }
+
+    .moive{
+        width:100%;
+    }
+
+    /*
+    .movie img{
+        width:50%;
+        object-fit: cover;
+    }
+    */
+
+    .movie img{
+        width:70%;
+        margin: 10% 15%;
+        object-fit: cover;
+    }
+
+    .movie img:nth-of-type(2){
+      display: none;
     }
 }

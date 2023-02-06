@@ -23,7 +23,9 @@
     <div class="logo"> <!-- division -->
         <img src="./images/logo.png" alt="펩시골라" srcset=""> <!-- inline level element-->
     </div>
-
+    <div class="bugger">
+        메뉴이미지
+    </div>
     <div class="menu"> 
         <!-- inline level element
             width : 내용만큼 설정
@@ -57,4 +59,11 @@
         <p>copyright(c) 2023 펩시 센터 all rights reserved</p>
     </div>
 </body>
+<script>
+    const bugger = document.querySelector(".bugger");
+    bugger.addEventListener("click",function(){
+         alert('click');
+    }
+    );
+</script>
 </html>
