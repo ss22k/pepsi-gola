@@ -128,7 +128,7 @@ a {
     left: 240px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 430px) {
   body {
     background-color: gold;
   }
