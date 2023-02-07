@@ -1,69 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--검색에 용이한 메타태그  Open Graph Meta -->
     <meta property="og:image" content="./images/pepsi.jpg" />
     <meta property="og:description" content="펩시골라 클론코딩" />
-    <meta property="og:title" content="펩시골라 클론코딩"/>
-   <!-- html5 -->
+    <meta property="og:title" content="펩시골라 클론코딩" />
+    <!-- html5 -->
     <title>펩시골라</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
     <!--block level element 
     <h1>펩시골라</h1> 
     <h2>메뉴</h2>
      width : 설정한 대로
     -->
-    <h1 class="hide">펩시골라 골라</h1>
-    <div class="logo"> <!-- division -->
-        <img src="./images/logo.png" alt="펩시골라" srcset=""> <!-- inline level element-->
+    <h1  id="title" class="hide">펩시골라 골라</h1>
+    <div class="logo">
+      <!-- division -->
+      <img src="./images/logo.png" alt="펩시골라" srcset="" />
+      <!-- inline level element-->
     </div>
-    <div class="bugger">
-        메뉴이미지
-    </div>
-    <div class="menu"> 
-        <!-- inline level element
+    <div class="opener">메뉴이미지</div>
+    <div class="menu hide">
+      <!-- inline level element
             width : 내용만큼 설정
         -->
+        <button id="closer" style="font-size : 2rem; display:block; color:white; border:0; margin: 0 0 10rem 0; background-color: transparent;">&times;</button>
+      <ul>
+        <li></li>
+      </ul>
         <a href="#">펩시소개</a>
-        <a href="#">펩시종류</a>
-        <a href="#">갤러리</a>
-        <a href="#">고객센터</a>
+      <a href="#">펩시종류</a>
+      <a href="#">갤러리</a>
+      <a href="#">고객센터</a>
     </div>
 
-    <div class="hero"><img src="./images/visual.png" alt="펩시골라 새로운 맛 출시" srcset=""></div>
+    <div class="hero">
+      <img src="./images/visual.png" alt="펩시골라 새로운 맛 출시" srcset="" />
+    </div>
     <div class="movie">
-        <h2 class="movie-title">youtube</h2>
-        <p class="moive-desc">펩시 쇼츠</p>
-        <img src="./images/movie1.jpg" alt="펩시vs코크" />
-        <img src="./images/movie2.jpg" alt="펩시vs코크2" /><!-- 이미지 사이즈 + 글자여백 있음 -->
+      <h2 class="movie-title">youtube</h2>
+      <p class="moive-desc">펩시 쇼츠</p>
+      <img src="./images/movie1.jpg" alt="펩시vs코크" />
+      <img
+        src="./images/movie2.jpg"
+        alt="펩시vs코크2"
+      /><!-- 이미지 사이즈 + 글자여백 있음 -->
     </div>
     <div class="social">
-        <img src="images/kakao_icon.png" alt="카카오">
-        <img src="images/naver_icon.png" alt="네이버 블로그">
-        <img src="images/yellow_icon.png" alt="카카오스토리">
-        <img src="images/insta_icon.png" alt="인스타그램">
+      <img src="images/kakao_icon.png" alt="카카오" />
+      <img src="images/naver_icon.png" alt="네이버 블로그" />
+      <img src="images/yellow_icon.png" alt="카카오스토리" />
+      <img src="images/insta_icon.png" alt="인스타그램" />
     </div>
     <div class="contact">
-        <h2>펩시 센터</h2>
-        <p>1566-3082</p>
+      <h2>펩시 센터</h2>
+      <p>1566-3082</p>
     </div>
-    <hr id="line">
+    <hr id="line" />
     <div class="location">
-        <p>광주광역시 서구 농성동</p>
-        <p>copyright(c) 2023 펩시 센터 all rights reserved</p>
+      <p>광주광역시 서구 농성동</p>
+      <p>copyright(c) 2023 펩시 센터 all rights reserved</p>
     </div>
-</body>
-<script>
-    const bugger = document.querySelector(".bugger");
-    bugger.addEventListener("click",function(){
-         alert('click');
-    }
-    );
-</script>
+    <script src=".js/index.js"></script>
+  </body>
 </html>
