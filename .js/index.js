@@ -105,10 +105,7 @@ let
 Array  
 Collection : method 없음 유사 Array
 
-
 */
-
-
 
 const opener = document.querySelector(".opener");
 const closer = document.querySelector("#closer");
